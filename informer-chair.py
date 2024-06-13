@@ -5,8 +5,12 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
+import sys
 
 np.set_printoptions(threshold=np.inf, suppress=True)
+
+args = sys.argv
+C=int(args[1])
 
 # Informer model implementation
 class Informer(nn.Module):
@@ -32,7 +36,7 @@ num_layers = 3
 num_heads = 4
 dropout = 0.1
 learning_rate = 0.001
-num_epochs = 50
+num_epochs = C
 batch_size = 32
 
 input = np.load("./data/cat4all-chair.npy")
