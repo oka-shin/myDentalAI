@@ -32,7 +32,7 @@ num_layers = 3
 num_heads = 4
 dropout = 0.1
 learning_rate = 0.001
-num_epochs = 100
+num_epochs = 50
 batch_size = 32
 
 input = np.load("./data/cat4all+chair.npy")
