@@ -88,4 +88,4 @@ for i in tqdm(range(input2.shape[0])):
 
         result[i][j] = yosoku.argmax(dim=1).item()  # Convert the output to the predicted class
 
-np.savetxt('informer+chair-results.txt', result, fmt='%d')
+np.savetxt('informer+chair-results'+str(C)+'.txt', result, fmt='%d')
