@@ -1,7 +1,13 @@
 # myDentalAI
 'myDentalAI' is a project for conrstructing a big data collection platform for dental treatment.
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/39c3914b-b3e6-4cf8-a949-67d2ab6d5d83">　　
+This dataset was created from the data of 
+- A: the number of detections for dental objects
+- E: the chair log data
+- F: the dental insurance claim items
+  
+in the figure above.
 
-# Dataset
 ## Code
 This section provides the code for leave-one-out cross-validation using two types of classifiers.
 
